@@ -1,0 +1,26 @@
+{
+  "name": "doubanvideo",
+  "version": "1.0.0",
+  "description": "豆瓣电影",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SummerF/doubanVideo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SummerF/doubanVideo/issues"
+  },
+  "homepage": "https://github.com/SummerF/doubanVideo#readme",
+  "dependencies": {
+    "koa": "^2.5.2",
+    "koa-logger": "^3.2.0",
+    "koa-nunjucks-2": "^3.0.2",
+    "nunjucks": "^3.1.3",
+    "puppeteer-core": "^1.7.0"
+  }
+}
